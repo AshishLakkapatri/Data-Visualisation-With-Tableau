@@ -1,7 +1,7 @@
 # COVID-19 SQL Data Exploration Project Extension: Tableau Integration
 
 ## Overview
-This Tableau project serves as an extension to the previously conducted "COVID-19 Data Exploration Project." Building upon the SQL skills acquired in the initial project, this extension leverages Tableau for data visualization and interactive dashboard creation. The objective is to enhance the understanding of COVID-19 data by providing dynamic and visually impactful representations of the analyzed metrics.
+This Tableau project serves as an extension to the previously conducted "COVID-19 Data Exploration Project." Building upon the SQL skills acquired in the initial project, this extension leverages Tableau for data visualization and interactive dashboard creation. The objective is to enhance the understanding of COVID-19 data by providing dynamic and visually impactful representations of the analyzed metrics. This project focuses on analyzing COVID-19 data at both the continental and location-specific levels using the PortfolioProject database. The queries provide insights into total cases, total deaths, death percentages, and infection rates relative to population for different geographical entities.
 
 ## Tableau Integration
 The project seamlessly integrates with Tableau, a powerful data visualization tool, to present the insights gained from the SQL analysis. By employing Tableau's features, including dashboards, charts, and interactive elements, the project aims to offer a user-friendly and comprehensive view of the COVID-19 data trends.
@@ -28,9 +28,19 @@ The project seamlessly integrates with Tableau, a powerful data visualization to
    - **Dashboard Creation:** Demonstrates the creation of interactive dashboards for a comprehensive exploration of COVID-19 data.
 
 ## Tableau Project Queries
-The queries used in the original SQL project laid the foundation for this Tableau extension. Visualizations and dashboards correspond to the SQL analyses, providing a bridge between data exploration and visual representation.
+The queries used in the original SQL project laid the foundation for this Tableau extension. Visualizations and dashboards correspond to the SQL analyses, bridging data exploration and visual representation.
 
-## Acknowledgments
-This project extension is inspired by the foundational work conducted in the "COVID-19 Data Exploration Project." The SQL skills applied in this Tableau integration were acquired through the guidance of Alex the Analyst. The analysis presented here serves as a practical demonstration of the seamless transition from SQL to Tableau for a holistic understanding of data.
+## About Queries
 
-For detailed insights into the Tableau project and the SQL skills applied, refer to the tutorial series on Alex the Analyst's YouTube channel.
+### Query 1: Continental Covid-19 Summary
+This query calculates and presents the total cases, total deaths, and the percentage of deaths total cases for COVID-19 data at the continental level. The results are ordered by total_cases and total_deaths in ascending order. The query filters out records where the continent is null.
+
+### Query 2: Location-Specific Total Deaths
+This query provides the total death count for each specific location where the continent is null, excluding certain global or non-specific locations. The results are ordered by the total death count in descending order, offering a ranked list of locations with the highest total deaths.
+
+### Query 3: Highest Infection Count and Population Percentage
+This query presents information about the highest infection count and the percentage of the population infected for each specific location. The results are grouped by location and population, ordered by the percentage of population infected in descending order. This allows for the identification of locations with the highest infection rates relative to their populations.
+
+### Query 4: Infection Count and Percentage Over Time
+This query provides information about the highest infection count and the percentage of the population infected for each specific location at different dates. The results are grouped by location, population, and date, ordered by the percentage of population infected in descending order. This enables a detailed analysis of infection rates over time for various locations.
+
