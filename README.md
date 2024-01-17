@@ -41,6 +41,13 @@ This query provides the total death count for each specific location where the c
 ### Query 3: Highest Infection Count and Population Percentage
 This query presents information about the highest infection count and the percentage of the population infected for each specific location. The results are grouped by location and population, ordered by the percentage of population infected in descending order. This allows for the identification of locations with the highest infection rates relative to their populations.
 
+
 ### Query 4: Infection Count and Percentage Over Time
 This query provides information about the highest infection count and the percentage of the population infected for each specific location at different dates. The results are grouped by location, population, and date, ordered by the percentage of population infected in descending order. This enables a detailed analysis of infection rates over time for various locations.
+
+## Acknowledgments
+
+This project is part of a YouTube tutorial series led by [Alex the Analyst](https://www.youtube.com/@AlexTheAnalyst). The skills applied in this project were acquired under his guidance, and the analysis serves as a practical demonstration of Tableau techniques for data Visualization.
+
+For a more in-depth understanding of the project and Tableau skills, refer to the tutorial series on Alex the Analyst's [YouTube channel](https://www.youtube.com/@AlexTheAnalyst).
 
