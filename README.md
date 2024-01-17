@@ -6,7 +6,7 @@ This Tableau project serves as an extension to the previously conducted "COVID-1
 ## Tableau Integration
 The project seamlessly integrates with Tableau, a powerful data visualization tool, to present the insights gained from the SQL analysis. By employing Tableau's features, including dashboards, charts, and interactive elements, the project aims to offer a user-friendly and comprehensive view of the COVID-19 data trends.
 
-## Dashboard : ![Dashboard](https://github.com/AshishLakkapatri/Exploring-Covid---19-Datsets-with-SQL-Queries-and-Tableau-dashboards/assets/69083448/3b27e19c-48ed-439c-b2db-26966024ec32)
+## Dashboard :![Dashboard](https://github.com/AshishLakkapatri/Exploring-Covid---19-Datsets-with-SQL-Queries-and-Tableau-dashboards/assets/69083448/66da98ef-d594-4bb3-985e-50993c1a8f47)
 
 
 ## Key Components
