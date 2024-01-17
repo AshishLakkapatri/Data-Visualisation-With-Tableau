@@ -1,4 +1,4 @@
-# COVID-19 Data Exploration Project Extension: Tableau Integration
+# COVID-19 SQL Data Exploration Project Extension: Tableau Integration
 
 ## Overview
 This Tableau project serves as an extension to the previously conducted "COVID-19 Data Exploration Project." Building upon the SQL skills acquired in the initial project, this extension leverages Tableau for data visualization and interactive dashboard creation. The objective is to enhance the understanding of COVID-19 data by providing dynamic and visually impactful representations of the analyzed metrics.
