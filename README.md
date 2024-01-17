@@ -31,5 +31,3 @@ The queries used in the original SQL project laid the foundation for this Tablea
 This project extension is inspired by the foundational work conducted in the "COVID-19 Data Exploration Project." The SQL skills applied in this Tableau integration were acquired through the guidance of Alex the Analyst. The analysis presented here serves as a practical demonstration of the seamless transition from SQL to Tableau for a holistic understanding of data.
 
 For detailed insights into the Tableau project and the SQL skills applied, refer to the tutorial series on Alex the Analyst's YouTube channel.
-
-**Note:** The project assumes the existence of specific tables (CovidDeaths, CovidVaccinations, etc.) in the PortfolioProject database, as established in the original SQL project.
